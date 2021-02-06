@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ua.avada.client.services.PosterClientService;
-import ua.avada.domain.Poster;
+import ua.avada.domain.db.Poster;
 
 import java.util.List;
 

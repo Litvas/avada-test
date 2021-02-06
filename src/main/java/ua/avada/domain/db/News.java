@@ -1,4 +1,4 @@
-package ua.avada.domain;
+package ua.avada.domain.db;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,13 +11,13 @@ import javax.persistence.Table;
 @Table
 @Data
 @NoArgsConstructor
-public class Film {
+public class News {
 
     @Id
     private Long id;
 
     private String title;
 
-    private String description;
+    private String content;
 
 }

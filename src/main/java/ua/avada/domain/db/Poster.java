@@ -1,4 +1,4 @@
-package ua.avada.domain;
+package ua.avada.domain.db;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
